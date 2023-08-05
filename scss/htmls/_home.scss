@@ -1,0 +1,39 @@
+@import "../utilidades/variables";
+@import "../utilidades/extend";
+@import "../utilidades/mixin";
+
+
+.home{
+    color: $color-texto;
+    .indexh1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 20px;
+        text-align: center;
+    }
+    .indexh2{
+        @extend %tituloh2;
+        font-size: 27px;
+        margin: 5px;
+        padding: 10px;
+    }
+    .contentMainHome .parrafoIndex1{
+        margin: 15px;
+        font-size: 18px;
+        text-align: center;
+        padding: 30px;
+    }
+    .contentMainHome .parrafoIndex2{
+        margin: 15px;
+        font-size: 18px;
+        text-align: center;
+        padding: 30px;
+    }
+    .contentMainHome .imgHome{
+        @include flex;
+        margin-bottom: 50px;
+        height: 250px;
+        padding: 10%;
+    }
+}

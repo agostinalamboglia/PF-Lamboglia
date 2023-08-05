@@ -1,0 +1,48 @@
+@import "../utilidades/variables";
+@import "../utilidades/extend";
+
+.mainProjects{
+    color: $color-texto;
+    .projectsh1{
+        @extend %tituloh1;
+        padding: 20px;
+        text-align: center;
+    }
+    .grillaProjects{
+        display: flex;
+        flex-direction: column;
+        margin: 10%;
+        .descripcionProject{
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+    .contenedorImgProject1 .imgProjects{
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        margin: 3%;
+        border: 3px solid $color-headerfooter;
+    }
+    .contenedorImgProject2 .imgProjects{
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        margin: 3%;
+        border: 3px solid $color-headerfooter;
+    }
+    .contenedorImgProject3 .imgProjects{
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        margin: 3%;
+        border: 3px solid $color-headerfooter;
+    }
+    .contenedorImgProject4 .imgProjects{
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        margin: 3%;
+        border: 3px solid $color-headerfooter;
+    }
+}

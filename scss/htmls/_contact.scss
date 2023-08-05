@@ -1,0 +1,31 @@
+@import "../utilidades/variables";
+@import "../utilidades/extend";
+
+.mainContact{
+    color: $color-texto;
+    .contacth1{
+        @extend %tituloh1;
+        padding: 20px;
+        text-align: center;
+    }
+    .contacth2{
+        @extend %tituloh2;
+        margin: 7%;
+    }
+    .contenedorContactos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .medioContacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    // no puedo ponerle espacio(gap) a la img
+    //nav .contenedorContactos .medioContacto .imgContacto{
+    //    gap: 30px;
+    //}
+}

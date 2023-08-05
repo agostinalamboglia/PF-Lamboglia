@@ -1,0 +1,67 @@
+@import "utilidades/variables";
+
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*estilos generales*/
+html{
+    background-color: $color-backgroundbody;
+}
+header{
+    position: fixed;
+    top: 0;
+    width:100%;
+    padding: 1px;
+    height: 100px;
+    background-color: $color-headerfooter;
+    font-size: 7px;
+    .navbar{
+        background-color: $color-headerfooter;
+    }
+    .navbar .container-fluid img{
+        border: 4.5px double $color-bordes;
+    }
+    li .color-link{
+        color: $color-link;
+        font-size: 18px;
+        text-align: center;
+    }
+    li .nav-link{
+        color: $color-backgroundbody;
+    }
+}
+main{
+    background-color: $color-backgroundbody;
+    margin-top: 30%;
+}
+footer{
+    background-color: $color-headerfooter;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    height: 15px;
+    position: fixed; bottom: 0px ; width: 100%;
+}
+
+/*estilos de home*/
+@import "htmls/home";
+
+/*estilos de about me*/
+@import "htmls/about";
+
+/*estilos de projects*/
+@import "htmls/projects";
+
+/*estilos de resume*/
+@import "htmls/resume";
+
+/*estilos de contact*/
+@import "htmls/contact";
+
+/*MQ*/
+@import "htmls/mq";

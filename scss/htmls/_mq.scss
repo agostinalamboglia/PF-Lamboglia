@@ -1,0 +1,245 @@
+/*MQ de tablet*/
+@media screen and (min-width: 600px){
+
+    /*home tablet*/
+    .home{
+        margin-top: 20%;
+        .contentMainHome .parrafo1 .parrafoIndex1{
+            font-size: 20px;
+        }
+        .contentMainHome .parrafo2 .parrafoIndex2{
+            font-size: 20px;
+        }
+        .contentMainHome{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 50% 35% ;
+            grid-template-rows: 40% 40%;
+            row-gap: 10%;
+            grid-template-areas: 
+            "parrafo-uno imgHome"
+            "parrafo-dos parrafo-dos";
+                .parrafo1{
+                grid-area: parrafo-uno;
+                }            
+                .imgHome{
+                grid-area: imgHome;
+                }
+                .parrafo2{
+                grid-area: parrafo-dos;
+                }
+        }
+    }
+
+    /*about me tablet*/
+        .mainAbout{
+            margin-top: 20%;
+            
+            div .aboutP{
+                font-size: 20px;
+            }
+        }
+    
+    /*projects tablet*/
+    .mainProjects{
+        margin-top: 20%;
+        .grillaProjects{
+            display: flex;
+            flex-direction: column;
+            .descripcionProject{
+                font-size: 20px;
+            }
+        }
+        .contenedorImgProject1, .contenedorImgProject2, .contenedorImgProject3, .contenedorImgProject4{
+            margin: 3% 0%;
+        }
+    }
+
+    /*resume tablet*/
+    .mainResume{
+        margin-top: 20%;
+        .sectionResume .resumeh2{
+            display: flex;
+            align-items: flex-start;
+            margin-left: 20px;
+        }
+        .sectionResume{
+            margin: 5%;
+        }
+        div ul li{
+            font-size: 18px;
+        }
+    }
+    
+    /*contact tablet*/
+    .mainContact{
+        margin-top: 20%;
+        .contenedorContactos{
+            margin: 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .contenedorContactos .contactp{
+            font-size: 20px;
+        }
+        .contacth2{
+            margin: 5%;
+        }
+    }
+
+}
+
+/*MQ de desktop*/
+@media screen and (min-width: 1024px){
+
+    /*home desktop*/
+    .home{
+        margin-top: 10%;
+        .indexh1{
+            display: flex;
+            align-items: flex-start;
+            font-size: 40px;
+            font-weight: 900;
+            margin-left: 40px;
+            padding: 25px;
+        }
+        .indexh2{
+            font-size: 30px;
+            display: flex;
+            align-items: flex-start;
+            margin-left: 40px;
+            padding: 25px;
+        }
+        .contentMainHome{
+            margin: 1%;
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 40% 40% ;
+            grid-template-rows: 40% 40%;
+            grid-template-areas: 
+            "parrafo-uno imgHome"
+            "parrafo-dos parrafo-dos";
+                .parrafo1{
+                grid-area: parrafo-uno;
+                margin-bottom: 25px;
+                }            
+                .imgHome{
+                grid-area: imgHome;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                }
+                .parrafo2{
+                grid-area: parrafo-dos;
+                }
+        }
+        .contentMainHome .parrafo1 .parrafoIndex1{
+            font-size: 25px;
+        }
+        .contentMainHome .parrafo2 .parrafoIndex2{
+            font-size: 25px;
+        }
+    }
+    /*about me desktop*/
+    .mainAbout{
+        margin-top: 10%;
+        .abouth1{
+            display: flex;
+            align-items: flex-start;
+            margin-left: 40px;
+            padding: 25px;
+        }
+        div .aboutP{
+            margin-left: 40px;
+            font-size: 25px;
+            gap: 5px;
+        }
+    }
+    /*projects desktop*/
+    .mainProjects{
+        margin-top: 10%;
+        .projectsh1{
+            display: flex;
+            align-items: flex-start;
+            margin-left: 40px;
+            padding: 25px;
+        }
+        .grillaProjects{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 1fr 1fr;//40% 40%
+            grid-template-rows: 1fr 1fr;//40% 40%
+            grid-template-areas:
+            "proyecto-uno proyecto-dos"
+            "proyecto-tres proyecto-cuatro";
+            .contenedorImgProject1{
+                grid-area: proyecto-uno;
+                margin: 3%;
+            }
+            .contenedorImgProject2{
+                grid-area: proyecto-dos;
+            }
+            .contenedorImgProject3{
+                grid-area: proyecto-tres;
+            }
+            .contenedorImgProject1{
+                grid-area: proyecto-cuatro;
+            }
+            .descripcionProject{
+                font-size: 25px;
+            }
+
+        }
+     }
+
+    /*resume desktop*/
+    .mainResume{
+        margin-top: 10%;
+        .resumeh1{
+            display: flex;
+            align-items: flex-start;
+            margin-left: 40px;
+        }
+        .sectionResume .resumeh2{
+            display: flex;
+            align-items: flex-start;
+            margin-left: 35px;
+        }
+        .sectionResume .contenedorExperiencia{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        div ul{
+            margin-left: 50px;
+        }
+        div ul li{
+            font-size: 20px;
+            margin: 1% 0%;
+        }
+    }
+    /*contact desktop*/
+    .mainContact{
+        margin-top: 10%;
+        .contacth1{
+            display: flex;
+            align-items: flex-start;
+            margin-left: 40px;
+            padding: 20px;
+        }
+        .contacth2{
+            margin: 10%;
+        }
+        .contenedorContactos{
+            margin: 3%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 10%;}
+        .medioContacto{
+            margin: 2%;
+        }
+    }
+}
+

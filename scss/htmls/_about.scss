@@ -1,0 +1,16 @@
+@import "../utilidades/variables";
+@import "../utilidades/extend";
+@import "../utilidades/mixin";
+
+.mainAbout{
+    color: $color-texto;
+    .abouth1{
+        @extend %tituloh1;
+        padding: 20px;
+        text-align: center;
+    }
+    .aboutP{
+        @extend %parrafo-mobile;
+        text-align: center;
+    }
+}
