@@ -159,6 +159,7 @@
     /*projects desktop*/
     .mainProjects{
         margin-top: 10%;
+    //    height: 80vh;
         .projectsh1{
             display: flex;
             align-items: flex-start;
@@ -168,23 +169,50 @@
         .grillaProjects{
             display: grid;
             justify-content: center;
-            grid-template-columns: 1fr 1fr;//40% 40%
-            grid-template-rows: 1fr 1fr;//40% 40%
+            grid-template-columns: 40% 40%;//1fr 1fr;//
+            grid-template-rows: 40% 40%;//1fr 1fr;//40% 40%
             grid-template-areas:
             "proyecto-uno proyecto-dos"
             "proyecto-tres proyecto-cuatro";
             .contenedorImgProject1{
                 grid-area: proyecto-uno;
-                margin: 3%;
+                margin: 10% 5%; 
+               .imgProjects{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                margin: 15px;
+               }
             }
             .contenedorImgProject2{
                 grid-area: proyecto-dos;
+                margin: 10% 5%; 
+               .imgProjects{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                margin: 15px;
+               }
             }
             .contenedorImgProject3{
                 grid-area: proyecto-tres;
+                margin: 10% 5%; 
+               .imgProjects{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                margin: 15px;
+               }
             }
-            .contenedorImgProject1{
+            .contenedorImgProject4{
                 grid-area: proyecto-cuatro;
+                margin: 10% 5%; 
+               .imgProjects{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                margin: 15px;
+               }
             }
             .descripcionProject{
                 font-size: 25px;

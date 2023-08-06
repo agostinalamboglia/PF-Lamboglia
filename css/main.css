@@ -335,18 +335,41 @@ footer {
     .mainProjects .grillaProjects {
       display: grid;
       justify-content: center;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 40% 40%;
+      grid-template-rows: 40% 40%;
       grid-template-areas: "proyecto-uno proyecto-dos" "proyecto-tres proyecto-cuatro"; }
       .mainProjects .grillaProjects .contenedorImgProject1 {
         grid-area: proyecto-uno;
-        margin: 3%; }
+        margin: 10% 5%; }
+        .mainProjects .grillaProjects .contenedorImgProject1 .imgProjects {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          margin: 15px; }
       .mainProjects .grillaProjects .contenedorImgProject2 {
-        grid-area: proyecto-dos; }
+        grid-area: proyecto-dos;
+        margin: 10% 5%; }
+        .mainProjects .grillaProjects .contenedorImgProject2 .imgProjects {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          margin: 15px; }
       .mainProjects .grillaProjects .contenedorImgProject3 {
-        grid-area: proyecto-tres; }
-      .mainProjects .grillaProjects .contenedorImgProject1 {
-        grid-area: proyecto-cuatro; }
+        grid-area: proyecto-tres;
+        margin: 10% 5%; }
+        .mainProjects .grillaProjects .contenedorImgProject3 .imgProjects {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          margin: 15px; }
+      .mainProjects .grillaProjects .contenedorImgProject4 {
+        grid-area: proyecto-cuatro;
+        margin: 10% 5%; }
+        .mainProjects .grillaProjects .contenedorImgProject4 .imgProjects {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          margin: 15px; }
       .mainProjects .grillaProjects .descripcionProject {
         font-size: 25px; }
   /*resume desktop*/
