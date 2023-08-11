@@ -351,7 +351,7 @@ footer {
         margin: 10% 5%; }
         .mainProjects .grillaProjects .contenedorImgProject1 .imgProjects:hover {
           transition: 2s;
-          scale: 1.5;
+          scale: 1.3;
           width: 100%;
           height: 100%;
           object-fit: cover;
@@ -361,7 +361,7 @@ footer {
         margin: 10% 5%; }
         .mainProjects .grillaProjects .contenedorImgProject2 .imgProjects:hover {
           transition: 2s;
-          scale: 1.5;
+          scale: 1.3;
           width: 100%;
           height: 100%;
           object-fit: cover;
@@ -371,7 +371,7 @@ footer {
         margin: 10% 5%; }
         .mainProjects .grillaProjects .contenedorImgProject3 .imgProjects:hover {
           transition: 2s;
-          scale: 1.5;
+          scale: 1.3;
           width: 100%;
           height: 100%;
           object-fit: cover;
@@ -381,7 +381,7 @@ footer {
         margin: 10% 5%; }
         .mainProjects .grillaProjects .contenedorImgProject4 .imgProjects:hover {
           transition: 2s;
-          scale: 1.5;
+          scale: 1.3;
           width: 100%;
           height: 100%;
           object-fit: cover;
@@ -425,4 +425,7 @@ footer {
       justify-content: center;
       gap: 10%; }
     .mainContact .medioContacto {
-      margin: 2%; } }
+      margin: 2%; }
+      .mainContact .medioContacto #ContactoAnimaciones:hover {
+        transition: 2s;
+        scale: 1.3; } }

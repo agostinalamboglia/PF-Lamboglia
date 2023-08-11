@@ -178,7 +178,7 @@
                 margin: 10% 5%; 
                 .imgProjects:hover{
                 transition: 2s;
-                scale: 1.5;
+                scale: 1.3;
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
@@ -191,7 +191,7 @@
                 margin: 10% 5%; 
                .imgProjects:hover{
                 transition: 2s;
-                scale: 1.5;
+                scale: 1.3;
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
@@ -203,7 +203,7 @@
                 margin: 10% 5%; 
                 .imgProjects:hover{
                 transition: 2s;
-                scale: 1.5;
+                scale: 1.3;
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
@@ -215,7 +215,7 @@
                 margin: 10% 5%; 
                 .imgProjects:hover{
                 transition: 2s;
-                scale: 1.5;
+                scale: 1.3;
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
@@ -275,7 +275,9 @@
             gap: 10%;}
         .medioContacto{
             margin: 2%;
+            #ContactoAnimaciones:hover{
+                transition: 2s;
+                scale: 1.3;
         }
-    }
+    }}
 }
-
